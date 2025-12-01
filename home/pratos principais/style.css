@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body {
+    background-color: burlywood;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: sienna;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: sienna;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s
+}
+
+nav > a:hover {
+    background-color: peru;
+}
+
+
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1 {
+    color: sienna;
+    font-family: var(--fonte-padrao);
+}
+
+main h2 {
+    color: sienna;
+    font-family: var(--fonte-padrao);
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+}
+
+main img {
+    max-width: 50%;
+    margin: 20px auto;
+
+}

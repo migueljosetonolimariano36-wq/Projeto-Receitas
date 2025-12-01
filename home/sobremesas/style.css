@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
-
 :root {
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: burlywood;
     font-family: var(--fonte-padrao);
 }
@@ -59,12 +58,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 30px;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 main h1 {
@@ -78,22 +72,10 @@ main h2 {
 }
 
 main p {
-    line-height: 1.6em;
-    margin-bottom: 15px;
-}
-
-main strong {
-    color: sienna;
-    font-weight: bold;
-}
-
-main a {
-    color: sienna;
-    text-decoration: none;
+    font-family: var(--fonte-padrao);
 }
 
 main img {
-    width: 50%;
-    display: block;
+    max-width: 50%;
     margin: auto;
 }
